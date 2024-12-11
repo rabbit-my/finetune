@@ -11,7 +11,7 @@ backbone_dict = {
 
     'vit_b': [vit.vit_base(), 768],
     'vit_s': [vit.vit_small(), 384],
-    'swin_transformer': [swin_transformer.swin_tiny_patch4_window7_224(pretrain=False),768]
+    'swin_transformer': [swin_transformer.swin_tiny_patch4_window7_224(pretrain=True),768]
 }
 
 
