@@ -6,6 +6,7 @@ backbone_dict = {
     'resnet18': [resnet.ResNet('resnet18', weights=None), 512],
     'resnet34': [resnet.ResNet('resnet34', weights=None), 512],
     'resnet50': [resnet.ResNet('resnet50', weights=None), 2048],
+    # 'resnet50': [resnet.ResNet('resnet50', weights=models.ResNet50_Weights.IMAGENET1K_V1), 2048],
 
     'convnext_tiny':[convnext.ConvNeXt('convnext_tiny',weights = models.ConvNeXt_Tiny_Weights.IMAGENET1K_V1),768],
 
