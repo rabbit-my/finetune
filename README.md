@@ -1,2 +1,2 @@
 # finetune
-README
+A simple classification framework compatible with various backbones.
